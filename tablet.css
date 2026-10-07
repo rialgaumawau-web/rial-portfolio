@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body {
+    background-color: #0A1A2F;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    background-color: #F2C94C;
+    height: 80px;
+    padding: 10px;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #F2C94C;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#about-section {
+    width: 100%;
+    padding: 20px;
+}
+
+#profile-pic {
+    width: 60%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: 3px solid #F2C94C;
+}
+
+.project-box {
+    width: 45%;
+    float: left;
+    background-color: #F2C94C;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    background-color: #123456;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #F2C94C;
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+#footer {
+    background-color: #F2C94C;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.clear {
+    clear: both;
+}

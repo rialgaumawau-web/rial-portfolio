@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/* COLORS */
+:root {
+    --navy: #0A1A2F;
+    --gold: #F2C94C;
+}
+
+/* BODY */
+body {
+    background-color: var(--navy);
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* BANNER */
+#banner {
+    background: linear-gradient(90deg, var(--navy), var(--gold));
+    height: 120px;
+    padding: 20px;
+}
+
+#banner h1 {
+    margin-left: 15px;
+}
+
+/* NAVIGATION */
+#nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: var(--gold);
+    overflow: hidden;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#nav a:hover {
+    background-color: white;
+}
+
+/* ABOUT SECTION */
+#about-section {
+    width: 960px;
+    margin: auto;
+    background-color: #123456;
+    padding: 20px;
+}
+
+#profile-pic {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid var(--gold);
+}
+
+/* PROJECT BOXES */
+.project-box {
+    width: 260px;
+    height: 150px;
+    float: left;
+    background: linear-gradient(135deg, var(--gold), var(--navy));
+    margin: 15px;
+    padding: 10px;
+    opacity: 0.9;
+    color: black;
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+    transition: transform 0.4s;
+    opacity: 1;
+}
+
+/* CONTACT FORM */
+form {
+    width: 400px;
+    margin: auto;
+    background-color: #123456;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: var(--gold);
+    border: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: white;
+}
+
+/* FOOTER */
+#footer {
+    background-color: var(--gold);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* CLEAR FLOATS */
+.clear {
+    clear: both;
+}
